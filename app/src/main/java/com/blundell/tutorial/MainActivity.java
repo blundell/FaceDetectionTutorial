@@ -37,6 +37,8 @@ public class MainActivity extends Activity implements FrontCameraRetriever.Liste
         // When the front facing camera has been retrieved
         // then initialise it i.e turn face detection on
         camera.initialise(this);
+        // If you wanted to show a preview of what the camera can see
+        // here is where you would do it
     }
 
     @Override
