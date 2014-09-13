@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">FaceDetectionTutorial</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="face_detected_message">I SEE YOUR FACE</string>
+  <string name="face_detected_then_lost_message">HELLO? IS ANYBODY THERE?</string>
+  <string name="error_with_face_detection">Face detection error</string>
+
+</resources>
