@@ -48,17 +48,17 @@ public class MainActivity extends Activity implements FrontCameraRetriever.Liste
         // or another app is using the camera
         // or our app or another app failed to release the camera properly
         Log.wtf(TAG, "Failed to load camera, what went wrong?");
-        helloWorldTextView.setText(getString(R.string.error_with_face_detection));
+        helloWorldTextView.setText(R.string.error_with_face_detection);
     }
 
     @Override
     public void onFaceDetected() {
-        helloWorldTextView.setText(getString(R.string.face_detected_message));
+        helloWorldTextView.setText(R.string.face_detected_message);
     }
 
     @Override
     public void onFaceTimedOut() {
-        helloWorldTextView.setText(getString(R.string.face_detected_then_lost_message));
+        helloWorldTextView.setText(R.string.face_detected_then_lost_message);
     }
 
     @Override
@@ -67,6 +67,6 @@ public class MainActivity extends Activity implements FrontCameraRetriever.Liste
         // Face detection not supported on this device
         // Something went wrong in the Android api
         // or our app or another app failed to release the camera properly
-        helloWorldTextView.setText(getString(R.string.error_with_face_detection));
+        helloWorldTextView.setText(R.string.error_with_face_detection);
     }
 }
